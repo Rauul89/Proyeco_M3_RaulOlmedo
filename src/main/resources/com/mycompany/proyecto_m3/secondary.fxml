@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.proyecto_m3.SecondaryController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="559.0" prefWidth="961.0">
+         <children>
+            <Label layoutX="99.0" layoutY="139.0" text="Nacionalidad:" />
+            <Label layoutX="99.0" layoutY="106.0" text="Nombre:" />
+            <Label layoutX="99.0" layoutY="170.0" text="Sexo:" />
+            <Label layoutX="99.0" layoutY="273.0" text="Pais:" />
+            <Label layoutX="422.0" layoutY="70.0" style="-fx-background-color: blue;" text="DATOS PERSONALES" textFill="WHITE" underline="true" />
+            <Label layoutX="525.0" layoutY="144.0" text="NIF:" />
+            <Label layoutX="525.0" layoutY="111.0" text="Apellidos:" />
+            <Label layoutX="525.0" layoutY="175.0" text="Fecha de Nacimiento:" />
+            <Label layoutX="525.0" layoutY="272.0" text="Codigo Postal:" />
+            <Label layoutX="99.0" layoutY="302.0" text="Localidad:" />
+            <Label layoutX="99.0" layoutY="330.0" text="Provincia:" />
+            <Label layoutX="93.0" layoutY="432.0" text="Telefono Movil" />
+            <Label layoutX="93.0" layoutY="462.0" text="Correo Electronico" />
+            <Label layoutX="455.0" layoutY="225.0" style="-fx-background-color: blue;" text="DOMICILIO" textFill="WHITE" underline="true" />
+            <Label layoutX="422.0" layoutY="386.0" style="-fx-background-color: blue;" text="DATOS DE CONTACTO" textFill="WHITE" underline="true" />
+            <Label layoutX="97.0" layoutY="35.0" text="IBAN:" />
+            <Label layoutX="143.0" layoutY="35.0" text="ES87 5987 2354 6895 6569 9824" />
+            <Label layoutX="235.0" layoutY="106.0" prefHeight="16.0" prefWidth="155.0" text="RAUL" />
+            <Label layoutX="235.0" layoutY="139.0" prefHeight="16.0" prefWidth="155.0" text="ESPAÑA" />
+            <Label layoutX="235.0" layoutY="170.0" prefHeight="16.0" prefWidth="155.0" text="M" />
+            <Label layoutX="690.0" layoutY="111.0" prefHeight="16.0" prefWidth="155.0" text="OLMEDO MOLINA" />
+            <Label layoutX="690.0" layoutY="144.0" prefHeight="16.0" prefWidth="155.0" text="85692375T" />
+            <Label layoutX="690.0" layoutY="175.0" prefHeight="16.0" prefWidth="155.0" text="06/06/2002" />
+            <Label layoutX="235.0" layoutY="273.0" prefHeight="16.0" prefWidth="155.0" text="ESPAÑA" />
+            <Label layoutX="235.0" layoutY="302.0" prefHeight="16.0" prefWidth="155.0" text="TARRAGONA" />
+            <Label layoutX="235.0" layoutY="330.0" prefHeight="16.0" prefWidth="155.0" text="TARRAGONA" />
+            <Label layoutX="690.0" layoutY="272.0" prefHeight="16.0" prefWidth="155.0" text="43100" />
+            <Label layoutX="235.0" layoutY="462.0" prefHeight="16.0" prefWidth="155.0" text="raul@gmail.com" />
+            <Label layoutX="235.0" layoutY="432.0" prefHeight="16.0" prefWidth="155.0" text="698236856" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
